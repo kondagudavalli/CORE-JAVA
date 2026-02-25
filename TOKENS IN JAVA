@@ -1,0 +1,188 @@
+Java Tokens :-
+=============
+Tokens are the smallest units of a Java program.
+They are the individual parts of Java code.
+
+There are 4 types of tokens in Java:
+
+Keywords
+
+Identifiers
+
+Separators
+
+Literals
+
+1️⃣ Keywords
+
+Keywords are predefined reserved words in Java.
+
+Java is a case-sensitive language.
+
+Keywords must always be written in lowercase.
+
+Java contains 50 keywords.
+
+✅ Examples:
+
+int
+class
+public
+static
+void
+if
+else
+return
+2️⃣ Identifiers
+
+Identifiers are the names given to Java components.
+
+Examples of components:
+
+Class names
+
+Variable names
+
+Method names
+
+Identifier Rules
+
+Identifiers can contain alphabets (A–Z, a–z) and digits (0–9).
+
+Identifiers must not start with a digit.
+
+Keywords cannot be used as identifiers.
+
+Special symbols are not allowed except:
+
+_ (underscore)
+
+$ (dollar)
+
+✅ Valid Identifiers:
+
+studentName
+_empId
+$salary
+marks1
+
+❌ Invalid Identifiers:
+
+1name      // Cannot start with number
+int        // Keyword not allowed
+total-marks // Special symbol not allowed
+Naming Convention (CamelCase Rules)
+📌 Class Name
+
+Must start with an uppercase letter.
+
+If multiple words are used, the first letter of each word should be uppercase.
+
+✅ Examples:
+
+Student
+EmployeeDetails
+BankAccount
+📌 Variable / Method Name
+
+Must start with a lowercase letter.
+
+If multiple words are used:
+
+First word starts with lowercase.
+
+Each new word starts with uppercase.
+
+✅ Examples:
+
+studentName
+calculateTotalMarks()
+bankAccountNumber
+3️⃣ Separators
+
+Separators are used to separate blocks and statements in Java.
+
+Common Separators:
+Separator	Purpose
+{ }	Define blocks
+;	End a statement
+( )	Method parameters
+[ ]	Arrays
+,	Separate multiple variables
+
+Example:
+
+class Demo {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+4️⃣ Literals
+
+Literals are the actual values assigned in Java code.
+
+There are 4 types of literals:
+
+Number
+
+Integer
+
+Float
+
+Character
+
+String
+
+Boolean
+
+1️⃣ Number Literals
+
+Numbers can be written directly.
+
+System.out.println(10);    // Integer
+System.out.println(10.5);  // Float
+2️⃣ Character Literals
+
+Must be enclosed in single quotes ' '
+
+Only one character is allowed.
+
+✅ Examples:
+
+System.out.println('H');
+System.out.println('&');
+System.out.println('1');
+
+❌ Invalid:
+
+System.out.println('10');  // Compile Time Error (CTE)
+3️⃣ String Literals
+
+Must be enclosed in double quotes " "
+
+No length limitation
+
+✅ Examples:
+
+System.out.println("sheela420");
+System.out.println("3245326540");
+System.out.println("true");
+System.out.println("");
+4️⃣ Boolean Literals
+
+Boolean values are predefined:
+
+true
+
+false
+
+✅ Examples:
+
+System.out.println(true);
+System.out.println(false);
+✅ Summary
+Token Type	Description
+Keywords	Predefined reserved words
+Identifiers	Names given to program elements
+Separators	Symbols used to separate code structure
+Literals	Fixed values used in code
