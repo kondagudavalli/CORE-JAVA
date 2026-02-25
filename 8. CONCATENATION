@@ -1,0 +1,72 @@
+📌 Definition
+==================
+Combining or merging two or more types of data is known as Concatenation.
+
+In Java, concatenation is achieved using the + (plus) operator.
+
+ASCII Values
+--------------
+Characters	ASCII Range
+A to Z	- 65 to 90
+a to z	- 97 to 122
+0 to 9	- 48 to 57
+Operations Using + Operator in Java
+1️⃣ Number
+------------
+Operation	Result
+Number + Number	- Addition
+Number + Character	- Addition (Character converted to ASCII)
+Number + String	- Concatenation
+Number + Boolean	- ❌ Compile Time Error (CTE)
+Example:
+----------
+System.out.println(10 + 20);      // 30
+System.out.println(10 + 'A');     // 75 (10 + 65)
+System.out.println(10 + "20");    // 1020
+// System.out.println(10 + true); // CTE
+2️⃣ Character
+--------------
+Operation	Result
+Character + Number	- Addition
+Character + Character	- Addition (ASCII values added)
+Character + String	- Concatenation
+Character + Boolean	- ❌ Compile Time Error (CTE)
+Example:
+----------
+System.out.println('A' + 10);      // 75
+System.out.println('A' + 'B');     // 131 (65 + 66)
+System.out.println('A' + "B");     // AB
+// System.out.println('A' + true); // CTE
+3️⃣ String
+------------
+If any one operand is a String, the result is always Concatenation.
+
+Operation	Result
+String + Number	- Concatenation
+String + Character	- Concatenation
+String + String	- Concatenation
+String + Boolean	- Concatenation
+Example:
+----------
+System.out.println("Hello" + 10);      // Hello10
+System.out.println("Hello" + 'A');     // HelloA
+System.out.println("Hello" + "Java");  // HelloJava
+System.out.println("Hello" + true);    // Hellotrue
+4️⃣ Boolean
+------------
+Operation	Result
+Boolean + Number	- ❌ Compile Time Error (CTE)
+Boolean + Character	- ❌ Compile Time Error (CTE)
+Boolean + String	- Concatenation
+Boolean + Boolean	- ❌ Compile Time Error (CTE)
+Example:
+---------
+// System.out.println(true + 10);    // CTE
+// System.out.println(true + 'A');   // CTE
+System.out.println(true + "Java");   // trueJava
+// System.out.println(true + false); // CTE
+✅ Important Rule to Remember
+------------------------------
+🔹 If at least one operand is a String, the result is always Concatenation.
+🔹 If both operands are numeric (or characters), Java performs Addition.
+🔹 Boolean cannot be added using + except with String.
