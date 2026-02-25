@@ -74,11 +74,11 @@ VS Code / Eclipse / IntelliJ IDEA
 3.Compile the program:
 
 javac FileName.java
-
+-------------------
 4.Run the program:
 
 java FileName
-
+--------------
 📌 Why Learn Core Java?
 ------------------------
 Core Java is the foundation for:
