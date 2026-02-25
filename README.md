@@ -1,11 +1,11 @@
 ☕ Core Java
+--------------
 📌 About This Repository
-
+-------------------------
 This repository contains structured notes, examples, and explanations of Core Java concepts.
 It is designed for beginners, students, and placement preparation.
 
 The content covers fundamental Java topics with clear explanations and simple examples.
-
 📚 Topics Covered
 
 ✅ Introduction to Java
@@ -36,24 +36,23 @@ The content covers fundamental Java topics with clear explanations and simple ex
 
 ✅ Object-Oriented Programming Concepts (OOP)
 
-Class & Object
+  * Class & Object
 
-Inheritance
+  * Inheritance
 
-Polymorphism
+  * Polymorphism
 
-Abstraction
+  * Abstraction
 
-Encapsulation
+  * Encapsulation
 
 ✅ String Handling
 
 ✅ Exception Handling
 
 ✅ Collections Framework (Basics)
-
 🎯 Purpose
-
+--------------
 📖 Academic Learning
 
 💼 Placement Preparation
@@ -61,28 +60,27 @@ Encapsulation
 🧠 Concept Clarity
 
 💻 Practice for Coding Interviews
-
 🛠 Technologies Used
-
+--------------------
 Java (JDK 8 or above)
 
 VS Code / Eclipse / IntelliJ IDEA
-
 ▶️ How to Run Java Program
+---------------------------
+1.Install JDK
 
-Install JDK
+2.Open terminal
 
-Open terminal
-
-Compile the program:
+3.Compile the program:
 
 javac FileName.java
 
-Run the program:
+4.Run the program:
 
 java FileName
-📌 Why Learn Core Java?
 
+📌 Why Learn Core Java?
+------------------------
 Core Java is the foundation for:
 
 Advanced Java
@@ -96,7 +94,7 @@ Backend Development
 Software Engineering Roles
 
 Strong Core Java knowledge is essential for cracking technical interviews.
-
 👨‍💻 Author
-
+-----------
 This repository is maintained for learning and educational purposes.
+
