@@ -1,0 +1,23 @@
+📌 Program
+------------
+package com.java10am;
+
+public class Concatenation {
+    public static void main(String[] args) {
+
+        System.out.println("sheela" + 200 + 220);
+        System.out.println("sheela" + (200 + 220));
+        System.out.println("sheela" + "leela" + false + 'c' + 100);
+        System.out.println(10 + 'a' + "10");
+        System.out.println("leela" + true + (100 + 'd'));
+
+    }
+}
+
+✅ Output
+--------
+sheela200220
+sheela420
+sheelaleelafalsec100
+10710
+leelatrue200
