@@ -65,6 +65,7 @@ The content covers fundamental Java topics with clear explanations and simple ex
 Java (JDK 8 or above)
 
 VS Code / Eclipse / IntelliJ IDEA
+
 ▶️ How to Run Java Program
 ---------------------------
 1.Install JDK
