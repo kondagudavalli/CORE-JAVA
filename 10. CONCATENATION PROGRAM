@@ -21,3 +21,82 @@ sheela420
 sheelaleelafalsec100
 10710
 leelatrue200
+
+
+🔎 Explanation (Step-by-Step)
+1️⃣ "sheela" + 200 + 220
+
+👉 When a String comes first, everything becomes concatenation (left to right).
+
+"sheela" + 200      → sheela200
+sheela200 + 220     → sheela200220
+
+✔ Output:
+
+sheela200220
+2️⃣ "sheela" + (200 + 220)
+
+👉 Brackets are solved first.
+
+200 + 220 = 420
+
+Then:
+
+"sheela" + 420 → sheela420
+
+✔ Output:
+
+sheela420
+3️⃣ "sheela" + "leela" + false + 'c' + 100
+
+Since it starts with a String, everything becomes concatenation.
+
+Step-by-step:
+
+"sheela" + "leela" → sheelaleela
++ false            → sheelaleelafalse
++ 'c'              → sheelaleelafalsec
++ 100              → sheelaleelafalsec100
+
+✔ Output:
+
+sheelaleelafalsec100
+4️⃣ 10 + 'a' + "10"
+
+👉 'a' ASCII value = 97
+
+Step-by-step:
+
+10 + 'a'  → 10 + 97 = 107
+107 + "10" → 10710 (String concatenation)
+
+✔ Output:
+
+10710
+5️⃣ "leela" + true + (100 + 'd')
+
+👉 'd' ASCII value = 100
+
+First solve bracket:
+
+100 + 'd' → 100 + 100 = 200
+
+Now concatenate:
+
+"leela" + true → leelatrue
+leelatrue + 200 → leelatrue200
+
+✔ Output:
+
+leelatrue200
+🎯 Important Rules to Remember
+
+If expression starts with String, everything becomes concatenation.
+
+Java evaluates expressions left to right.
+
+Brackets () have highest priority.
+
+Character values are converted into their ASCII values during arithmetic.
+
+Boolean cannot participate in arithmetic operations.
