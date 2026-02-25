@@ -6,8 +6,9 @@ This repository contains structured notes, examples, and explanations of Core Ja
 It is designed for beginners, students, and placement preparation.
 
 The content covers fundamental Java topics with clear explanations and simple examples.
-📚 Topics Covered
 
+📚 Topics Covered
+-------------------
 ✅ Introduction to Java
 
 ✅ History of Java
@@ -51,6 +52,7 @@ The content covers fundamental Java topics with clear explanations and simple ex
 ✅ Exception Handling
 
 ✅ Collections Framework (Basics)
+
 🎯 Purpose
 --------------
 📖 Academic Learning
@@ -95,6 +97,7 @@ Backend Development
 Software Engineering Roles
 
 Strong Core Java knowledge is essential for cracking technical interviews.
+
 👨‍💻 Author
 -----------
 This repository is maintained for learning and educational purposes.
